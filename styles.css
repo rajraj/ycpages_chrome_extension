@@ -1,0 +1,103 @@
+* { margin:0;padding:0 }
+body { font-family:tahoma,sans-serif;font-size:11px;}
+#yc_search_box { padding:10px;width:300px;text-align:center }
+#yc_results_box { padding:10px 0;text-align:left }
+table { border-bottom:1px solid #9fb9d3;}
+td { padding:5px 2px; }
+.logo { width:80px }
+.field { width:140px }
+.btn { width:80px }
+input[type=text] {
+	-webkit-border-radius:4px;
+	border:1px solid #E0E0E0;
+	padding:3px;
+	border-color:#AFAFAF #E0E0E0 #E0E0E0;
+	font-size:13px;
+	color:#434343;
+	resize:none;
+	font-family:arial;
+	background-color: #F9F9F9!important;
+	width:140px;
+}
+input[type=submit] {
+	font-size: 11px;
+	font-weight: bold;
+	background: #719538;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8db947), to(#4b6326));
+	border: 1px solid #678834;
+	color: #f8fbf3;
+	margin: 0 auto;
+	height: 24px;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,.1) 0 -1px 0;
+	min-width: 60px;
+	-webkit-border-radius: 3px;
+	text-transform: uppercase;
+}
+input[type=submit]:hover {
+	background: #5e7c2f;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9cc35f), to(#5e7c2f));
+}
+.error {
+	color:#d00;
+}
+#yc_results_box {
+	border-top:1px solid #cedbe8;
+}
+a:link, a:visited {
+  color: #006FBB;
+  text-decoration: none;
+}
+a:hover {
+  color: #c00;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #111;
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+}
+h1 {
+	font-size: 3em;
+	line-height: 1px;
+	margin-bottom: .5em;
+}
+h2 {
+	font-size: 14px;
+	line-height: 1em;
+	letter-spacing: -1px;
+	color: #3B352E;
+	margin-bottom: 7px;
+	font-weight:bold;
+}
+.person_box {
+	border-bottom:1px dotted #ddd;
+	clear:both;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+.person_box img.frame {
+	border:1px solid #ddd;
+	padding:2px;
+	float:left;
+}
+.person_box .details {
+	margin-left:65px;
+}
+.clearfix {  display: block }
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.right {
+	float:right;
+}
+.gray {
+	color:#999;
+}
+.dark {
+	color:#222;
+}

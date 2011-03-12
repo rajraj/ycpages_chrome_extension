@@ -1,0 +1,19 @@
+{
+	"name": "YCPages Search",
+	"description": "Search YCPages for companies, founders, etc",
+	"version": "1.0",
+	"browser_action": {
+		"default_icon": "ycpages_16.png",
+		"default_popup": "popup.html"
+	},
+	"icons" : {
+		"16" : "ycpages_16.png",
+		"48" : "ycpages_48.png",
+		"128" : "ycpages_128.png"
+	},
+	"permissions": [
+		"tabs",
+		"http://ajax.googleapis.com/*",
+		"http://ycpages.info/*"
+	]
+}
