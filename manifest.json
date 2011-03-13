@@ -1,6 +1,6 @@
 {
 	"name": "YCPages Search",
-	"description": "Search YCPages for companies, founders, etc",
+	"description": "Search YCPages",
 	"version": "1.0",
 	"browser_action": {
 		"default_icon": "ycpages_16.png",
@@ -13,7 +13,6 @@
 	},
 	"permissions": [
 		"tabs",
-		"http://ajax.googleapis.com/*",
 		"http://ycpages.info/*"
 	]
 }
